@@ -33,6 +33,7 @@ import 'package:flutter_widget_week/FloatingActionButton/FloatingActionButtonWid
 import 'package:flutter_widget_week/FractionallySizedBox/FractionallySizedBoxWidget.dart';
 import 'package:flutter_widget_week/FutureBuilder/FutureBuilderWidget.dart';
 import 'package:flutter_widget_week/Hero/HeroWidgetFirstPage.dart';
+import 'package:flutter_widget_week/Image/ImageWidget.dart';
 import 'package:flutter_widget_week/IndexStack/IndexedStactkWidget.dart';
 import 'package:flutter_widget_week/InheritedModel/MainInheritedModel.dart';
 import 'package:flutter_widget_week/InheritedModel/color_model.dart';
@@ -82,7 +83,7 @@ class MyApp extends StatelessWidget {
     return ColorModelContainer(
       child: MaterialApp(
         title: 'Flutter Demo',
-        home: TweenAnimationBuilderWidget(),
+        home: ImageWidget(),
       ),
     );
   }
