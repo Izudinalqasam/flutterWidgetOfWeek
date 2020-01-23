@@ -21,6 +21,7 @@ import 'package:flutter_widget_week/Container/ContainerWidget.dart';
 import 'package:flutter_widget_week/CupertinoActionSheet/CuppertinoWidget.dart';
 import 'package:flutter_widget_week/CustomPaint/CustomPaintWidget.dart';
 import 'package:flutter_widget_week/DataTable/DataTableWidget.dart';
+import 'package:flutter_widget_week/DefaultTabController_TabBar_TabView/DefaultTabContrBarViewWidget.dart';
 import 'package:flutter_widget_week/Dismissible/DismissibleListWidget.dart';
 import 'package:flutter_widget_week/Dismissible/DismissibleWidget.dart';
 import 'package:flutter_widget_week/Draggable/DraggableWidget.dart';
@@ -83,7 +84,7 @@ class MyApp extends StatelessWidget {
     return ColorModelContainer(
       child: MaterialApp(
         title: 'Flutter Demo',
-        home: ImageWidget(),
+        home: DefaultTabContrBarViewWidget(),
       ),
     );
   }
