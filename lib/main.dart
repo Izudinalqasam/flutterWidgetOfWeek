@@ -72,6 +72,7 @@ import 'package:flutter_widget_week/ValueListenableBuilder/MyCustomListenableBui
 import 'package:flutter_widget_week/ValueListenableBuilder/ValueListenableBuilderWidget.dart';
 import 'package:flutter_widget_week/Wrap/WrapWidget.dart';
 import 'package:flutter_widget_week/align/AlignWidget.dart';
+import 'package:flutter_widget_week/drawer/DrawerWidget.dart';
 import 'package:flutter_widget_week/toolips/ToolipsWidget.dart';
 
 void main() => runApp(MyApp());
@@ -84,7 +85,7 @@ class MyApp extends StatelessWidget {
     return ColorModelContainer(
       child: MaterialApp(
         title: 'Flutter Demo',
-        home: DefaultTabContrBarViewWidget(),
+        home: DrawerWidget(),
       ),
     );
   }
