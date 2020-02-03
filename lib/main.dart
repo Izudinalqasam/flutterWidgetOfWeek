@@ -60,6 +60,7 @@ import 'package:flutter_widget_week/SelectableText/SelectableTextWidget.dart';
 import 'package:flutter_widget_week/SizedBox/SizedBoxWidget.dart';
 import 'package:flutter_widget_week/SliverAppBar/SliverAppBarWidget.dart';
 import 'package:flutter_widget_week/SliverAppBar/SliverAppBarWidget2.dart';
+import 'package:flutter_widget_week/SnackBar/SnackBarWidget.dart';
 import 'package:flutter_widget_week/Spacer/SpacerWidget.dart';
 import 'package:flutter_widget_week/Stack/StackWidget1.dart';
 import 'package:flutter_widget_week/Stack/StackWidget2.dart';
@@ -85,7 +86,7 @@ class MyApp extends StatelessWidget {
     return ColorModelContainer(
       child: MaterialApp(
         title: 'Flutter Demo',
-        home: DrawerWidget(),
+        home: SnackBarWidget(),
       ),
     );
   }
